@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.ohmage.app"
+    package="org.mobilizingcs"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -8,7 +8,7 @@
         android:targetSdkVersion="8" />
 
     <application
-        android:name="org.ohmage.OhmageApplication"
+        android:name="MobilizeApplication"
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
