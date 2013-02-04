@@ -14,6 +14,9 @@
     -->
     <item name="allow_custom_server" type="bool">false</item>
 
+    <!-- If false, the user will not be able to see the register link. -->
+    <item name="allow_user_registration" type="bool">false</item>
+
     <!--
          Default option for single campaign mode. This can be changed by the user
          in the admin settings.
