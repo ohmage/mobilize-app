@@ -17,21 +17,15 @@
 package org.mobilizingcs;
 
 import org.ohmage.OhmageApplication;
-import org.ohmage.UserPreferencesHelper;
+import org.ohmage.logprobe.LogProbe;
 
 public class MobilizeApplication extends OhmageApplication {
 
     @Override
-    public void configureForDeployment(String server) {
-        UserPreferencesHelper userPrefs = new UserPreferencesHelper(this);
-        userPrefs.setShowFeedback(true);
-        userPrefs.setShowProfile(true);
-        userPrefs.setShowUploadQueue(true);
-        userPrefs.setShowMobility(false);
-        userPrefs.setShowMobilityFeedback(false);
-        userPrefs.setUploadResponsesWifiOnly(false);
-        userPrefs.setUploadProbesWifiOnly(true);
+    public void onCreate() {
+        super.onCreate();
 
-        // ConfigHelper is set by the defaults in config.xml
+        // We log the device id so we can correlate data with systemsens
+        LogProbe.setLogDeviceId(true);
     }
 }
