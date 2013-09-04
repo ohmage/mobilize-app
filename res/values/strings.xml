@@ -1,6 +1,48 @@
 <resources>
 
-    <string name="app_name">Mobilize</string>
+    <string name="app_name">UCLA MobilizingCS</string>
     <string name="server_name">mobilize</string>
+
+    <string name="login_download_campaign">Downloading Campaign&#8230;</string>
+    <string name="login_error_downloading_campaign">Error downloading campaign</string>
+    <string name="filter_all_campaigns">All Campaigns</string>
+    <string name="title_campaigns">My Campaigns</string>
+    <string name="title_add_campaign">Add Campaign</string>
+    <string name="title_campaign_info">Campaign Info</string>
+    <string name="dashboard_campaigns">Campaigns</string>
+    <string name="dashboard_campaigns_btn_description">Campaign List Dashboard Button</string>
+    <string name="help_dashboard_header_text">The Dashboard makes it easy to get to campaigns, surveys, and your response history&lt;br/></string>
+    <string name="help_dashboard_campaigns_title">Campaigns</string>
+    <string name="help_dashboard_campaigns_text">On the &lt;b>Campaign List&lt;/b> screen you can see the campaigns you are participating in (which have already been downloaded to the phone) as well as campaigns available for participation (which are on the server, available to be downloaded to the phone). You can access information about the campaigns you are participating in, as well as set up triggered reminders.</string>
+    <string name="help_dashboard_surveys_text">On the &lt;b>Survey List&lt;/b> screen you can see and take surveys from all the campaigns you are participating in.</string>
+    <string name="upload_queue_campaign_no_exist">The campaign this survey response belongs to no longer exists.</string>
+    <string name="upload_queue_campaign_out_of_date">The campaign this survey response belongs to is out of date.</string>
+    <string name="upload_queue_campaign_stopped">The campaign this survey response belongs to is no longer running.</string>
+    <string name="upload_queue_invalid_user_role">Your user role does not permit you to upload responses for this campaign.</string>
+    <string name="campaign_list_campaign_unavailable">This campaign is unavailable.</string>
+    <string name="campaign_list_campaign_stopped">This campaign is stopped.</string>
+    <string name="campaign_list_campaign_out_of_date">This campaign is out of date</string>
+    <string name="campaign_list_campaign_no_exist">This campaign no longer exists.</string>
+    <string name="campaign_list_empty">You are not participating in any campaigns.\n\nHit the + icon on the top right to view and download available campaigns.</string>
+    <string name="campaign_add_list_empty">No campaigns available at this time.</string>
+    <string name="preferences_no_single_campaign">Invalid campaign setup</string>
+    <string name="preferences_single_campaign_status">Single-Campaign Mode</string>
+    <string name="preferences_muli_campaign_status">Multi-Campaign Mode</string>
+    <string name="preferences_campaign_management">Campaign Management</string>
+    <string name="preferences_single_campaign_mode">Single Campaign Mode</string>
+    <string name="campaign_info_remove_text">Are you sure that you want to remove this campaign?</string>
+    <string name="survey_info_campaign_urn_title">campaign\nurn</string>
+    <string name="survey_info_campaign_urn_header_description">Campaign Urn Info Button</string>
+    <string name="surveys_empty_all">There are no surveys to display.\n\nAfter selecting campaigns to participate in, you can view a list of their surveys here.</string>
+    <string name="surveys_empty_pending">You have no pending surveys.\n\nYou can manage survey reminders via each campaign\'s information screen.</string>
+    <string name="single_campaign_error">There is a problem with the campaign setup. \n\nIf the problem continues, please contact an Administrator.</string>
+    <string name="survey_list_campaign_error">The campaign this survey belongs to is stopped, or otherwise unavailable. Please make sure the campaign it belongs to is up to date.</string>
+    <string name="campaign_read_auth_error">Authentication error while trying to read campaigns from server.</string>
+    <string name="campaign_read_unexpected_response">Unexpected response received from server while trying to read campaigns from server.</string>
+    <string name="campaign_read_network_error">Network error occurred while trying to read campaigns from server.</string>
+    <string name="campaign_read_internal_error">Internal error occurred while trying to read campaigns from server.</string>
+    <string name="single_campaign_changed_title">Campaign changed</string>
+    <string name="single_campaign_changed_message">The campaign you were participating in has changed. Any responses and charts associated with the old campaign have been removed.</string>
+
 
 </resources>
