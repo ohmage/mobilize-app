@@ -17,6 +17,7 @@
 package org.mobilizingcs;
 
 import org.ohmage.OhmageApplication;
+import org.ohmage.UserPreferencesHelper;
 import org.ohmage.logprobe.LogProbe;
 
 public class MobilizeApplication extends OhmageApplication {
@@ -25,7 +26,16 @@ public class MobilizeApplication extends OhmageApplication {
     public void onCreate() {
         super.onCreate();
 
+        UserPreferencesHelper.setPreserveInvalidPoints(true);
+
         // We log the device id so we can correlate data with systemsens
         LogProbe.setLogDeviceId(true);
+    }
+
+    @Override
+    public void resetAll() {
+        super.resetAll();
+
+        UserPreferencesHelper.setPreserveInvalidPoints(true);
     }
 }
