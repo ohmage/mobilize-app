@@ -3,8 +3,8 @@
      and versionName will be replaced with the version of ohmageAndroidLib if they are left as 0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.mobilizingcs"
-    android:versionCode="0"
+    package="org.ohmage.mobilizingcs"
+    android:versionCode="13090600"
     android:versionName="0" >
 
     <uses-sdk

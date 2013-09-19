@@ -14,7 +14,7 @@
  * limitations under the License.
  ******************************************************************************/
 
-package org.mobilizingcs;
+package org.ohmage.mobilizingcs;
 
 import org.ohmage.OhmageApplication;
 import org.ohmage.UserPreferencesHelper;
