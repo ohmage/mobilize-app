@@ -16,6 +16,7 @@
 
 package org.ohmage.mobilizingcs;
 
+import org.ohmage.OhmageApi;
 import org.ohmage.OhmageApplication;
 import org.ohmage.UserPreferencesHelper;
 import org.ohmage.logprobe.LogProbe;
@@ -30,6 +31,9 @@ public class MobilizeApplication extends OhmageApplication {
 
         // We log the device id so we can correlate data with systemsens
         LogProbe.setLogDeviceId(true);
+
+        // Set the client name
+        OhmageApi.setClientName("mobilize-android");
     }
 
     @Override
