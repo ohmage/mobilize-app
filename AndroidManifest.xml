@@ -4,7 +4,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.ohmage.mobilizingcs"
-    android:versionCode="13091900"
+    android:versionCode="14082500"
     android:versionName="0" >
 
     <uses-sdk
